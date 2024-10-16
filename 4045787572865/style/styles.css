@@ -1,5 +1,5 @@
 #es-rc #es-rc-content {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
@@ -23,14 +23,14 @@
 }
 #es-rc #es-rc-content .es-title {
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 25px;
   color: #1d1d1b;
   font-weight: 700;
 }
 #es-rc #es-rc-content .es-section-title {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 16px;
   color: #1d1d1b;
@@ -140,7 +140,8 @@
 #es-rc #es-rc-content .es-kv__description--large sup {
   vertical-align: text-top;
 }
-#es-rc #es-rc-content .es-kv__description-first, #es-rc #es-rc-content .es-kv__description-second {
+#es-rc #es-rc-content .es-kv__description-first,
+#es-rc #es-rc-content .es-kv__description-second {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -153,7 +154,8 @@
   margin-bottom: 30px;
   color: #aca6cb;
 }
-#es-rc #es-rc-content .es-kv__description-first sup, #es-rc #es-rc-content .es-kv__description-second sup {
+#es-rc #es-rc-content .es-kv__description-first sup,
+#es-rc #es-rc-content .es-kv__description-second sup {
   vertical-align: text-top;
 }
 #es-rc #es-rc-content .es-kv__disclaimer {
@@ -167,7 +169,8 @@
   font-size: 10px;
   text-align: center;
 }
-#es-rc #es-rc-content .es-kv__deco-image-1, #es-rc #es-rc-content .es-kv__deco-image-2 {
+#es-rc #es-rc-content .es-kv__deco-image-1,
+#es-rc #es-rc-content .es-kv__deco-image-2 {
   display: none;
 }
 #es-rc #es-rc-content .es-technology {
@@ -346,7 +349,8 @@
 #es-rc #es-rc-content .es-ba {
   margin-bottom: 50px;
 }
-#es-rc #es-rc-content .es-ba__deco-image-1, #es-rc #es-rc-content .es-ba__deco-image-2 {
+#es-rc #es-rc-content .es-ba__deco-image-1,
+#es-rc #es-rc-content .es-ba__deco-image-2 {
   display: none;
 }
 #es-rc #es-rc-content .es-ba__image {
@@ -405,7 +409,7 @@
 }
 #es-rc #es-rc-content .es-cross__title {
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: 700;
 }
 #es-rc #es-rc-content .es-cross__title span {
   color: #aca6cb;
@@ -580,7 +584,7 @@
     width: 50%;
   }
   #es-rc #es-rc-content .es-technology__content:not(:last-child)::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 50%;
@@ -805,4 +809,4 @@
 #es-rc #es-rc-content .es-swiper .swiper-pagination-bullet-active {
   opacity: 1;
   background: #000;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
